@@ -33,7 +33,7 @@
   import News from './stories/organisms/News.vue'
   import Contact from './stories/organisms/Contact.vue'
   import Footer from './stories/organisms/Footer.vue'
-
+  
 
 
   const footerItems = [

@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
 
 
-import Checkbox from './Checkbox.vue';
+import Input from './Input.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 
-const meta: Meta<typeof Checkbox> = {
-  title: 'Atoms/Checkbox',
-  component: Checkbox,
+const meta: Meta<typeof Input> = {
+  title: 'Atoms/Input',
+  component: Input,
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/vue/writing-docs/autodocs
   tags: ['autodocs'],
   argTypes: {
@@ -17,11 +17,13 @@ const meta: Meta<typeof Checkbox> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof Checkbox>;
+type Story = StoryObj<typeof Input>;
 
 export const Default: Story = {
   args: {
-    label:'Souhlasím',
+    label:'Label',
+    required: true,
+    error: true
   },
 
 };

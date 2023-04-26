@@ -5,7 +5,7 @@
     <div class="inputs-wrap">
         <Input class="input" label="Jméno" required />
         <Input class="input" label="Příjmení" required />
-
+        <NumberInput label="Telefon *" class="input" />
         <Input class="input" label="E-mail" required error />
         <Select class="input"
             label="V jakém jazyce chcete komunikovat?"
@@ -26,6 +26,8 @@
             :options='[{"id":1,"label":"Léčba neplodnosti"},{"id":2,"label":"Lorem"},{"id":3,"label":"Ipsum"},]'
         />
 
+        <Checkbox label="Souhlasím se zpracováním osobních údajů. *"></Checkbox>
+
     </div>
 </div>
 </template>
@@ -36,6 +38,8 @@ import { computed } from 'vue';
 import Button from '../atoms/Button.vue'
 import Input from '../atoms/Input.vue'
 import Select from '../atoms/Select.vue'
+import NumberInput from '../molecules/NumberInput.vue'
+import Checkbox from '../atoms/Checkbox.vue'
 
 const props = defineProps(['items']);
 

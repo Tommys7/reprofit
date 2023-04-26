@@ -11,6 +11,7 @@
           <div class="header-buttons">
             <Button class="header-button" icon="user" shadow size="small" />
             <Button class="header-button" primary label="Kontaktujte nás" shadow />
+            <Select class="header-languages" :default="languages[0].id" :options="languages" borderless small></Select>
           </div>
         </div>
       </div>
@@ -22,7 +23,16 @@
 import "../../assets/organisms/header.sass"
 import { computed } from 'vue';
 import Button from '../atoms/Button.vue';
+import Select from '../atoms/Select.vue'
 
+const languages = [
+    {id: 1, label: '<img src="../../../src/img/Czech.svg">'}, 
+    {id: 2, label: '<img src="../../../src/img/Englisch.svg">'}, 
+    {id: 3, label: '<img src="../../../src/img/France.svg">'}, 
+    {id: 4, label: '<img src="../../../src/img/Germany.svg">'}, 
+    {id: 5, label: '<img src="../../../src/img/Hungary.svg">'}, 
+    {id: 6, label: '<img src="../../../src/img/Romania.svg">'}, 
+]
 
 
 

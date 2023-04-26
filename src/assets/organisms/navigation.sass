@@ -25,6 +25,19 @@
 
 .nav-logo
     width: 3%
+    transition: 0.3s
 
+.nav .hidden
+    opacity: 0
 
+.nav
+    max-width: 1216px
+    width: 98%
+    margin: auto
 
+    &.fixed
+        position: fixed
+        top: 10px
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 100

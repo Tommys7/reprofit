@@ -1,8 +1,25 @@
 @import "../_common.sass"
 
+.header-languages
+    .select-window
+        padding: 6px 10px
+
+    .select-active
+        width: 89px
+
+
 .select
     display: flex
     flex-direction: column
+
+    &.select-small
+        .select-option
+            padding: 0
+
+        .select-img
+            padding: 0
+
+
     &-window
         border-radius: 24px
         border: 2px solid rgba(135,3,73, 0.1)
@@ -51,6 +68,10 @@
         color: RGB(255, 255, 255)
         border: none
         padding: 16px
+
+        &-small
+            width: 100%
+
         &__option
             padding: 16px
             border-radius: 32px
@@ -69,11 +90,3 @@
     background: RGB(5, 81, 98)
             
  
-            
-                
-
-    
-    
-
-
-    

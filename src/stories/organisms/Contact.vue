@@ -4,7 +4,9 @@
         <div class="container">
             <h4 class="contact-title">Kontaktujte nás</h4>
             <div class="contact-wrap">
-                <div class="contact-form"></div>
+                <div class="contact-form">
+                    <ContactForm></ContactForm>
+                </div>
                 <div class="contact-clinics">
                     <h4 class="contact-clinics__title">Naše kliniky</h4>
                     <div class="contact-clinics__cards">
@@ -30,6 +32,7 @@ import "../../assets/organisms/contact.sass"
 import { computed } from 'vue';
 import Circle from "../atoms/Circle.vue"
 import ClinicCard from '../molecules/ClinicCard.vue'
+import ContactForm from '../organisms/ContactForm.vue' 
 
 const props = defineProps({
     items: {
