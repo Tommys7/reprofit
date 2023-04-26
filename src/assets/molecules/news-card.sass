@@ -1,0 +1,60 @@
+@import "../_common.sass"
+
+
+.news
+    &-card
+        &__wrap
+            border-radius: 30px
+            padding: 0px
+            background: none
+            border: none
+            cursor: pointer
+            transition: 0.3s
+            &:hover
+                box-shadow: 10px 15px 35px rgba(9,72,86, 0.2)
+            &:active
+                background: #fdfdfd
+                box-shadow: none
+
+        &__imgBox
+            position: relative
+            max-width: 385px
+        &__img
+            width: 100%
+            border-radius: 30px
+        &__tag
+            position: absolute
+            top: 15px
+            left: 15px
+            z-index: 111
+            border-radius: 24px
+            box-shadow: 10px 15px 35px rgba(9,72,86, 0.2)
+            opacity: 1
+            background-color: rgba(71,184,209, 1)
+            padding: 5px 18px
+            opacity: 1
+            color: rgba(255,255,255,1)
+            font-size: 10px
+            +bold
+            letter-spacing: 1px
+            line-height: 18px
+        &__info
+            max-width: 385px
+            display: flex
+            flex-direction: column
+            padding: 23px
+        &__title
+            opacity: 1
+            color: $blue800
+            font-size: 18px
+            +bold
+            text-align: center
+            line-height: 24px
+            margin-bottom: 15px
+        &__date
+            opacity: 1
+            font-size: 14px
+            text-align: center
+            line-height: 18px
+
+            

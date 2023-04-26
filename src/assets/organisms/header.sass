@@ -1,0 +1,46 @@
+@import "../_common.sass"
+
+.header
+    &-logo
+        margin-right: 30px
+        @media (max-width: 706px)
+            margin-bottom: 20px
+
+    &-wrap
+        justify-content: space-between
+        display: flex
+        flex-wrap: wrap
+
+    &-interactive
+        align-items: center
+    &-button
+        box-shadow: 10px 15px 35px rgba(9,72,86, 0.2)
+
+    &-buttons
+        display: flex
+        gap: 20px
+        @media (max-width: 472px)
+            margin-top: 10px
+
+
+
+    &-search
+        margin-left: 34px
+        border: none
+        margin-right: 20px
+        background: transparent
+
+    &-interactive
+        display: flex
+        flex-wrap: wrap
+        a
+            text-decoration: none
+            color: $blue800
+            +semibold
+            transition: 0.2s
+            &:nth-child(2)
+                margin-left: 34px
+            &:hover
+                color: lighten($blue800, 20%)
+            &:active
+                color: $blue800

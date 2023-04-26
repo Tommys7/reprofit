@@ -1,0 +1,69 @@
+@import "../_common.sass"
+
+.footer
+    &-box
+        opacity: 1
+        background: url(../../img/General/Logo/Background/Desktop.svg)
+        border-radius: 40px
+        padding: 70px 150px 50px 150px
+
+    &-wrap
+        display: flex
+        justify-content: space-between
+
+    &-links
+        &__wrap
+            display: flex
+            gap: 50px
+
+    &-presentation
+        &__wrap
+            display: flex
+            flex-direction: column
+        &__title
+            opacity: 1
+            color: #fff
+            font-size: 16px
+            +bold
+            margin-bottom: 24px
+        &__logo
+            margin-bottom: 24px
+        &__socials
+            display: flex
+            gap: 8px
+            img
+                width: 32px
+        &__icon
+            &::after
+                background: #fff
+
+
+.footer-presentation__logo
+    text-decoration: none
+
+.footer-presentation__logoLeft
+    color: #fff
+    display: inline
+    font-size: 30px
+.footer-presentation__logoRight
+    color: #fff
+    display: inline
+    font-size: 30px
+    +bold
+
+
+
+.footer
+    &-wrap
+        &__down
+            display: flex
+            justify-content: space-between
+            margin-top: 20px
+        &__downLabel
+            opacity: 0.602739
+            color: rgba(255,255,255,1)
+            font-size: 14px
+            line-height: 22px
+            text-decoration: none
+            &::after
+                background: #fff

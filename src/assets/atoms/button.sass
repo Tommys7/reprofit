@@ -1,0 +1,55 @@
+@import "../_common.sass"
+
+.button
+    border-radius: 24px
+    padding: 8px 24px
+    border: none
+    color: white
+    background-color: white
+    color: $blue800
+    display: flex
+    align-items: center
+    flex-direction: row
+    +bold
+    cursor: pointer
+    transition: 0.3s
+    font-size: 16px
+    &:hover
+        background: #f0f0f0
+        &:active
+            background-color: #ffffff
+    &.primary
+        background-color: $blue500
+        color: white
+        &:hover
+            background: darken($blue500, 7%)
+        &:active
+            background-color: $blue500
+    &.secondary
+        background-color: $magenta500
+        color: white
+        &:hover
+            background: darken($magenta500, 5%)
+        &:active
+            background-color: $magenta500
+    &.large
+        padding: 12px 38.5px
+    &.huge
+        padding: 12px 105px
+    &.small
+        padding: 8px 8px
+    &-icon-padding
+        padding-left: 13px
+
+    &-icon
+        display: flex
+        justify-content: center
+    
+        
+        
+
+    
+        
+
+        
+

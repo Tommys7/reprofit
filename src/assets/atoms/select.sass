@@ -1,0 +1,79 @@
+@import "../_common.sass"
+
+.select
+    display: flex
+    flex-direction: column
+    &-window
+        border-radius: 24px
+        border: 2px solid rgba(135,3,73, 0.1)
+        opacity: 1
+        background-color: rgba(255,255,255, 1)
+        display: inline-flex
+        align-items: center
+        justify-content: space-between
+        cursor: pointer  
+
+        &.borderless
+            border: none
+            
+    &-option
+        padding: 15px 0px 15px 24px
+    &-placeholder
+        color: #838383
+    &-img
+        padding: 12px 12px 12px 0px
+    &-label
+        opacity: 1
+        color: rgba(101,101,101,1)
+        font-size: 14px
+        text-align: left
+        line-height: 18px
+        
+    &-required
+        opacity: 1
+        color: rgba(101,101,101,1)
+        font-size: 14px
+        text-align: left
+        line-height: 18px
+    &-labels
+        margin-bottom: 14px
+
+.select
+    &-active
+        position: absolute
+        width: 100%
+        display: inline-flex
+        flex-direction: column
+        border-radius: 24px
+        box-shadow: 25px 30px 65px rgba(48,5,14, 0.05)
+        opacity: 1
+        background-color: RGBA(10, 102, 123, 0.8)
+        color: RGB(255, 255, 255)
+        border: none
+        padding: 16px
+        &__option
+            padding: 16px
+            border-radius: 32px
+            opacity: 0.9
+            color: RGB(255, 255, 255)
+            cursor: pointer
+
+            &:hover
+                background: RGB(5, 81, 98)
+
+        &-wrapper
+            position: relative
+
+
+.select-activated
+    background: RGB(5, 81, 98)
+            
+ 
+            
+                
+
+    
+    
+
+
+    

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="10000px" viewBox="0 0 1600 10000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>General/Background/Desktop@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1600" height="10000"></rect>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-3">
+            <stop stop-color="#EEEBF4" offset="0%"></stop>
+            <stop stop-color="#EEEBF4" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-5">
+            <stop stop-color="#F5F9FF" offset="0%"></stop>
+            <stop stop-color="#F5F9FF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-6">
+            <stop stop-color="#FFF5F5" offset="0%"></stop>
+            <stop stop-color="#FFF5F5" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="General/Background/Desktop">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F9F4F8" xlink:href="#path-1"></use>
+            <g id="Colours-01" mask="url(#mask-2)">
+                <g transform="translate(-572.000000, 3274.000000)" id="Oval">
+                    <circle fill="url(#radialGradient-3)" cx="2102.5" cy="571.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="606.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="1455.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="1338.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="571.5" cy="1166.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-3)" cx="571.5" cy="2751.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="2191.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="3040.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="2923.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="2102.5" cy="2156.5" r="571.5"></circle>
+                </g>
+            </g>
+            <g id="Colours-01-Copy-2" mask="url(#mask-2)">
+                <g transform="translate(-572.000000, -338.000000)" id="Oval">
+                    <circle fill="url(#radialGradient-3)" cx="2102.5" cy="571.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="606.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="1455.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="1338.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="571.5" cy="1166.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-3)" cx="571.5" cy="2751.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="2191.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="3040.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="2923.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="2102.5" cy="2156.5" r="571.5"></circle>
+                </g>
+            </g>
+            <g id="Colours-01-Copy" mask="url(#mask-2)">
+                <g transform="translate(-572.000000, 6886.000000)" id="Oval">
+                    <circle fill="url(#radialGradient-3)" cx="2102.5" cy="571.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="606.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="1455.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="1338.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="571.5" cy="1166.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-3)" cx="571.5" cy="2751.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1105.5" cy="2191.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-4)" cx="1714.5" cy="3040.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-5)" cx="1126.5" cy="2923.5" r="571.5"></circle>
+                    <circle fill="url(#radialGradient-6)" cx="2102.5" cy="2156.5" r="571.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

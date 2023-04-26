@@ -1,0 +1,39 @@
+$blue500: #47B8D1
+$magenta500: #D6368C
+$blue800: #0A667B
+$blue900: #055162
+
+*
+    box-sizing: border-box
+
+.container-large
+    max-width: 1468px
+    width: 98%
+    margin: auto
+
+.container
+    max-width: 1216px
+    width: 98%
+    margin: auto
+.container-small
+    max-width: 1008px
+    width: 98%
+    margin: auto
+
+
+a
+    position: relative
+    &::after
+        content: ''
+        position: absolute
+        width: 0%
+        height: 1px
+        bottom: 0px
+        left: 0
+        transition: 0.5s
+    &:hover
+        &::after
+            width: 100%
+        
+
+

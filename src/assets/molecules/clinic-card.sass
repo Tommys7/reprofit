@@ -1,0 +1,52 @@
+@import "../_common.sass"
+
+
+.clinic
+    &-card
+        display: flex
+        padding: 5px
+        border-radius: 10px
+        transition: 0.5s
+        &:hover
+            box-shadow: 21px 25px 31px rgba(45, 5, 5, 0.1)
+        &__imgBox  
+            border-radius: 20px
+            padding-right: 25px
+            img
+                object-fit: cover
+                width: 80px
+                height: 100px
+                border-radius: 40px
+                box-shadow: 21px 25px 31px rgba(45, 5, 5, 0.2)
+        &__info
+            padding: 7px
+        &__name
+            margin: 0
+            opacity: 1
+            margin-bottom: 12px
+            +bold
+            text-align: left
+            line-height: 18px
+        &__languages
+            margin-bottom: 16px
+            display: flex
+            flex-wrap: wrap
+            gap: 6px
+            img
+                width: 20px
+        &__button
+            opacity: 1
+            box-shadow: 2px 4px 10px rgba(48,5,5, 0.05)
+            font-size: 15px !important
+            padding: 5px 16px !important
+
+
+.nav
+    &-buttons
+        display: flex
+        align-items: center
+        gap: 10px
+        &__contact
+            background: #47B8D1
+            padding: 7px
+            border-radius: 50px
